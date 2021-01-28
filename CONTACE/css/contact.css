@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu{
+    overflow: hidden;
+}
+
+.menu a{
+    float: left;
+    color: black;
+    padding: 24px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menu-left{
+    float: left;
+}
+.cover{
+    background-size: cover;
+}
+
+.menu a:hover{
+    color: #F9813A;
+    background-color:  #DDDDDD;
+}
+
+.menu a.active{
+    color: #222831;
+    font-size: 20px;
+    
+ }
+
+.cont{
+    background: green;
+    width: 400px;
+    height: 250px; 
+     
+ 
+}
+
+.cont img{
+    margin-top: 20%;
+    padding-left: 20%;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: blueviolet;
+    
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 505px;
+    height: 30px;
+      
+}
+
+input[type="submit"]{
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: cyan;
+    margin-left: 80%;
+    cursor:pointer;
+}
+
+h2{
+    color: black;
+    text-transform: uppercase;
+}
+
+iframe{
+    margin-top: 2%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+
+input[type="text"].bnt1:hover{
+    background-color: rgb(216, 199, 199);
+    color: black;
+}
+
+input[type="email"].bnt2:hover{
+    background-color: rgb(216, 199, 199);
+}
+
+input[type="submit"].bnt:hover {
+    color: black;
+    background-color:red;
+}
+
+fieldset{
+    background: rgb(211, 205, 205);
+    border: 10px gray snow;
+    display: block;
+    justify-content: space-around;
+    
+}
+

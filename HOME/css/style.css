@@ -1,0 +1,98 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.menu{
+    overflow: hidden;
+}
+
+.menu a{
+    float: right;
+    color: black;
+    padding: 24px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menu-right{
+    float: right;
+}
+.cover{
+    background-size: cover;
+}
+
+.menu a:hover{
+    color: #F9813A;
+    background-color:  #DDDDDD;
+}
+
+.menu a.active{
+    color: #222831;
+    font-size: 20px;
+ }
+ .cover{
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+} 
+.box1,
+.box2,
+.box3{
+    background: #A3D2CA;
+    padding: 3%;
+}  
+.coloum{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin: 3%;
+
+} 
+p{
+    width: 230px;
+}   
+.coloum :hover{
+    background: rgb(206, 198, 198);
+    padding: 2%;
+}
+.footer{
+    background:  #DDDDDD;
+    display: flex;
+    padding: 5%;
+    justify-content: space-evenly;
+}
+.colore{
+    background: #D8D3CD;
+    width: 1800px;
+    height: 400px;
+    
+}
+.app{
+    display: flex;
+    justify-content: center;
+    padding-top: 30%;
+    
+}
+.pofc{
+    font-size: 30px;
+    margin-left: 42%;
+    padding-top: 2%;
+}
+.boder{
+    width: 300px;
+    height: 5px;
+    background: black;
+    margin-left: 38%;
+}
+
+
+
+    
+
