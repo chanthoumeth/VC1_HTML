@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  sans-serif;
 }
 
 .menu{
@@ -35,9 +35,8 @@ body{
  }
 .container{
     display: flex;
-    justify-content: space-around;
-    margin-left: 5%;
-    margin-right: 10%;
+    justify-items: center;
+    
     
 }
 nav {
@@ -51,10 +50,8 @@ nav {
  .back{
      background:  #DDDDDD;
      width: 2000px;
-     height: 1000px;
-     margin-top: 5%;
-     
-    
+     height: 1000px; 
+    margin-top: 5%;
  }
  h3{
      margin-left: 5%;
@@ -68,12 +65,7 @@ nav {
  }
  h4{
      margin-left: 5%;
- }
- #pp{
-   margin-left:27%;
-   color:  #222831;
-  
- }
+ } 
  #contace{
      font-size: 20px;
      color: #222831;
@@ -100,12 +92,19 @@ nav {
  #contace{
      margin-top: 19%;
  }
- 
- 
-
-
-
-
+ #pp{
+     margin-left: 30%;
+ }
+ .button{
+     background: chartreuse;
+     padding: 2%;
+     width: 350px;
+     border-radius: 2%;
+     margin-left: 116%;
+ }
+ a{
+     text-decoration: none;
+ }
 .footer{
     background: teal;
     display: flex;

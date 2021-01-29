@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 .menu{
     overflow: hidden;
@@ -75,21 +75,28 @@ h1{
 nav{
     text-transform: uppercase;
     margin-left: 5%;
-    color:  #F9813A;
+    color:  #222831;
+    font-size: 20px;
 }
 #ul{
     margin-left: 5%;
     
 }
 #boxx{
-    background: #DED7B1;
+    background:;
     height: 200px;
     margin: 5%;
     padding-top: 2%;
     border-radius: 10px;
     
 }
-
+#boxx{
+    background:cornsilk;
+    padding: 2%;
+}
+#boxx img{
+    border-radius: 2%;
+}
 
 #boxxx{
     background:#DDDDDD;;
@@ -104,6 +111,11 @@ nav{
     border-radius:initial;
     padding: 3%;
 }
+.box2{
+    margin-top: 10%;
+
+}
+
 
 .footer{
     background: teal;
@@ -115,7 +127,7 @@ nav{
     border-bottom-style: solid;
     border-bottom-color:#999B84;
     margin-bottom: 5%;
-    padding-top: 5%;
+    margin-top: 15%;
 }
 
 .app{
