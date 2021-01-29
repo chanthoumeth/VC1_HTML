@@ -3,11 +3,7 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    background-color: #999B84;
-    display: flex;
-    
-}
+
 .menu{
     overflow: hidden;
 }
@@ -37,85 +33,102 @@ body{
     color: #222831;
     font-size: 20px;
  }
-img{
-    border-radius: 50%;
-    padding: 10%;
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 10%;
+    
+}
+nav {
+    color: #222831;
+    font-size: 350%;
+    text-transform: uppercase;
+    background: cornsilk;
+    padding: 5%;
+    
+ }
+ .back{
+     background:  #DDDDDD;
+     width: 2000px;
+     height: 1000px;
+     margin-top: 5%;
+     
+    
+ }
+ h3{
+     margin-left: 5%;
+     color: #222831;
+     text-transform: uppercase;
+     font-size: 20px;
+ }
+ hr{
+     margin-left: 5%;
+     margin-top: -2%;
+ }
+ h4{
+     margin-left: 5%;
+ }
+ #pp{
+   margin-left:27%;
+   color:  #222831;
+  
+ }
+ #contace{
+     font-size: 20px;
+     color: #222831;
+ }
+ .leader{
+     display: flex;
+     
+ }
+ .app1{
+     display: flex;
+     padding: 2%;
+     margin-left: -5%;
+ }
+ ul {
+     font-size: medium;
+     list-style: none;
+ }
+ img{
+     border-radius: 1%;
+ }
+ #dd li img{
+     border-radius: 5%;
+ }
+ #contace{
+     margin-top: 19%;
+ }
+ 
+ 
+
+
+
+
+.footer{
+    background: teal;
+    display: flex;
+    padding: 5%;
+    justify-content: space-evenly;
+    width: 1220px;
+    height: 150px;
+    border-bottom-style: solid;
+    border-bottom-color:#999B84;
+    margin-bottom: 5%;
     margin-top: 5%;
     
 }
 
-.information{
-    margin-top: 3%;
-}
-.p1{
-    background-color: #CDD0CB;
-    width: 300px;
-    height: 1500px;
-    display: ;
-}
-.color{
-    background: #CDD0CB;
-    width: 700px;
-    height: 200px;
-    margin-left: 5%;
-}
-.nav{
-    font-size: 50px;
-    text-transform: uppercase;
-    color: black;
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
-}
-.skill{
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-}
-.border{
-    width: 280px;
-    height: 2px;
-    background-color: #999B84;
-    margin-top: 5%;
-    margin-left: 5%;
-}
-h3{
-    
-    margin-left: 5%;
-    margin-bottom: -6%;
-    text-transform: uppercase;
-}
-.paragraph{
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 240px;
-}
-.app1 img{
-    display: block; 
-    margin-left: 1%;
-    
-   
-}
-.app1{
-   margin-top: 10%;
-   padding-top: 2%;
-   
-}
 .app{
     display: flex;
     justify-content: center;
+    
 }
-.text{
-    margin-top: 16%;
-    margin-left: 3%;
-}  
-.text .email{
-     padding-top: 6%;
- }
- .text .loca{
-     padding-top: 6%;
- }
- ul li{
-     padding: 5%;
-
- }
+#p-footer p{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}

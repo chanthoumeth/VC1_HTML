@@ -9,7 +9,7 @@ body{
 }
 
 .menu a{
-    float: left;
+    float: right;
     color: black;
     padding: 24px 16px;
     text-decoration: none;
@@ -18,7 +18,7 @@ body{
 }
 
 .menu-left{
-    float: left;
+    float: right;
 }
 .cover{
     background-size: cover;

@@ -8,6 +8,10 @@ body{
 
 .menu{
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
 }
 
 .menu a{
@@ -35,61 +39,71 @@ body{
     color: #222831;
     font-size: 20px;
  }
- .cover{
+ .cover1{
     background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
    
 } 
-.box1,
-.box2,
-.box3{
-    background: #A3D2CA;
-    padding: 3%;
-}  
+
 .coloum{
     display: flex;
     justify-content: space-evenly;
     padding: 5%;
     margin: 3%;
 
-} 
-p{
-    width: 230px;
 }   
 .coloum :hover{
     background: rgb(206, 198, 198);
     padding: 2%;
 }
 .footer{
-    background:  #DDDDDD;
+    background:teal;
     display: flex;
     padding: 5%;
     justify-content: space-evenly;
+    width: 1220px;
+    height: 150px;
+    border-bottom-style: solid;
+    border-bottom-color:#999B84;
+    margin-bottom: 5%;
 }
 .colore{
-    background: #D8D3CD;
-    width: 1800px;
-    height: 400px;
     
+    width: 1800px;
+    height: 300px;
+
 }
 .app{
     display: flex;
     justify-content: center;
-    padding-top: 30%;
     
 }
-.pofc{
-    font-size: 30px;
-    margin-left: 42%;
-    padding-top: 2%;
+p{
+    font-size: 20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    
 }
-.boder{
-    width: 300px;
-    height: 5px;
-    background: black;
-    margin-left: 38%;
+
+.title{
+    color:white;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -20%;
+}
+#name{
+    display: flex;
+    justify-content: center;
+    color:#F9813A;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 
